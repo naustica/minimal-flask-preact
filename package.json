@@ -1,0 +1,40 @@
+{
+  "name": "minimal-flask-preact",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-dev-server --inline --hot --config ./webpack.config.development.js",
+    "production": "webpack --config ./webpack.config.production.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "preact",
+    "flask"
+  ],
+  "author": "Nick Haupka",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^10.4.4",
+    "preact-router": "^3.2.1",
+    "typescript": "^3.9.3",
+    "unistore": "^3.5.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.5.0",
+    "html-webpack-plugin": "^4.3.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.0.1",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "ts-jest": "^26.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
