@@ -1,6 +1,7 @@
 {
   "name": "minimal-flask-preact",
   "version": "0.0.1",
+  "private": false,
   "main": "bin/index.js",
   "bin": "bin/index.js",
   "description": "Create a full-stack web application with Preact and Flask",

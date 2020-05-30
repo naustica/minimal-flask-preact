@@ -19,7 +19,7 @@ This package generates a minimalistic template for building a full-stack web app
 First you will need to install the package from [npm](https://www.npmjs.com/package/minimal-flask-preact).
 
 ```bash
-npm install minimal-flask-preact
+npm install -g minimal-flask-preact
 ```
 
 After downloading, you can create a new project with the following command.
