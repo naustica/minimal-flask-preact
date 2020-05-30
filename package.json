@@ -5,7 +5,7 @@
   "bin": "bin/index.js",
   "description": "Create a full-stack web application with Preact and Flask",
   "scripts": {
-    "test": "minimal-flask-preact create testproject && cd testproject npm run build",
+    "test": "minimal-flask-preact create testproject && cd testproject npm run build && npm run cleanup",
     "cleanup": "rm -rf testproject && rm -rf node_modules"
   },
   "keywords": [
