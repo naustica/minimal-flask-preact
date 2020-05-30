@@ -29,12 +29,12 @@ cd minimal-flask-preact && npm install
 ## 🚀 Frontend
 You can start the webpack development server with this command.
 ```bash
-npm run build
+npm run dev
 ```
 
-To create a javascript bundle file for production use the provided script `production`.
+To create a javascript bundle file for production use the provided script `build`.
 ```bash
-npm run production
+npm run build
 ```
 
 ## 🤖 Backend
@@ -43,7 +43,7 @@ It is a good practice to create a virtual environment when working on the backen
 A Flask app rely on some environment variables which must be set in order to safely deploy the application on a public server then.
 
 ```bash
-cd api
+cd server
 python3 -m venv venv
 source venv/bin/activate
 export SECRET_KEY=XXX
