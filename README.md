@@ -1,6 +1,8 @@
 # minimal-flask-preact
 
 [![Build Status](https://travis-ci.org/naustica/minimal-flask-preact.svg?branch=master)](https://travis-ci.org/github/naustica/minimal-flask-preact)
+[![npm](https://img.shields.io/npm/dm/minimal-flask-preact)](https://www.npmjs.com/package/minimal-flask-preact)
+[![npm](https://img.shields.io/npm/v/minimal-flask-preact)](https://www.npmjs.com/package/minimal-flask-preact)
 [![License](https://img.shields.io/github/license/naustica/minimal-flask-preact)](https://github.com/naustica/minimal-flask-preact/blob/master/LICENSE.txt)
 
 This repo contains a minimalistic template for creating a full-stack web application with Flask and Preact.
@@ -17,13 +19,14 @@ This repo contains a minimalistic template for creating a full-stack web applica
 First you will need to clone this repository. This can be done with the following command.
 
 ```bash
-git clone https://github.com/naustica/minimal-flask-preact.git
+npm install minimal-flask-preact
 ```
 
 After downloading, change your directory to minimal-flask-preact and install all dependencies.
 
 ```bash
-cd minimal-flask-preact && npm install
+minimal-flask-preact create my-project
+cd my-project && npm install
 ```
 
 ## 🚀 Frontend

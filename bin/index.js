@@ -21,17 +21,6 @@ const destination = path.join(dir, name);
 // get current working directory of this package
 const package_dir = __dirname;
 
-// public
-fs.copy(path.join(package_dir, '../public'), path.join(destination, 'public'), function (err) {
-  if (err) return console.log(err)
-})
-
-// server
-fs.copy(path.join(package_dir, '../server'), path.join(destination, 'server'), function (err) {
-  if (err) return console.log(err)
-})
-
-// src
-fs.copy(path.join(package_dir, '../src'), path.join(destination, 'src'), function (err) {
+fs.copy(path.join(package_dir, 'app'), path.join(destination), function (err) {
   if (err) return console.log(err)
 })
