@@ -13,5 +13,9 @@ class DevelopementConfig(BaseConfig):
     DEVELOPMENT = True
 
 
+class TestingConfig(BaseConfig):
+    TESTING = True
+
+
 class ProductionConfig(BaseConfig):
     pass
