@@ -12,7 +12,7 @@ module.exports = {
     host: '0.0.0.0',
     compress: false,
     historyApiFallback: true,
-    contentBase: path.join(__dirname, '.public'),
+    contentBase: path.join(__dirname, 'public'),
     proxy: {
       '/api': {
         target: 'http://localhost:3000',
@@ -21,7 +21,7 @@ module.exports = {
     }
   },
   output: {
-    path: path.resolve(__dirname, './public'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
   watch: true,
@@ -43,7 +43,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
+      template: 'public/index.html',
       inject: false
     }),
   ]

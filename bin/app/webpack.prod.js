@@ -8,7 +8,7 @@ module.exports = {
   devtool: 'none',
   entry: ['./src/app.tsx'],
   output: {
-    path: path.resolve(__dirname, './public'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
   watch: false,
@@ -30,7 +30,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
+      template: 'public/index.html',
       inject: false,
       minify: false
     }),

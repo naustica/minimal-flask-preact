@@ -1,22 +1,22 @@
 module.exports = {
-  "roots": [
+  roots: [
     "<rootDir>/src"
   ],
-  "transform": {
+  transform: {
     "^.+\\.(ts|tsx)$": "ts-jest"
   },
-  "testMatch": [
+  testMatch: [
     "**/__tests__/**/*.+(ts|tsx|js)",
     "**/?(*.)+(spec|test).+(ts|tsx|js)"
   ],
-  "moduleFileExtensions": [
+  moduleFileExtensions: [
     "ts",
     "tsx",
     "js",
     "jsx"
   ],
-  "moduleNameMapper": {
+  moduleNameMapper: {
     "^.+\\.scss$": "identity-obj-proxy",
   },
-  "snapshotSerializers": ["enzyme-to-json/serializer"]
+  snapshotSerializers: ["enzyme-to-json/serializer"]
 }
