@@ -16,7 +16,7 @@ This package generates a minimalistic template for building a full-stack web app
 - [Jest 26.x](https://jestjs.io/)
 
 ## 💁 Getting Started
-First you will need to install the package from [npm](https://www.npmjs.com/package/minimal-flask-preact).
+First, install the package from [npm](https://www.npmjs.com/package/minimal-flask-preact).
 
 ```bash
 npm install -g minimal-flask-preact
@@ -43,7 +43,9 @@ my-project
 │   ├── requirements.txt
 │   ├── routes
 │   │   └── hello_world.py
-│   └── server.py
+│   ├── server.py
+│   └── tests
+│       └── test_hello_world.py
 ├── src
 │   ├── __tests__
 │   │   └── hello_world.test.tsx
@@ -92,7 +94,7 @@ Use `pip` to install the related dependencies for the backend.
 pip install -r requirements.txt
 ```
 
-A Flask app rely on some environment variables which must be set in order to safely deploy the application on a public server then.
+A Flask app relies on some environment variables which must be set in order to safely deploy the application on a public server.
 
 ```bash
 export SECRET_KEY=XXX
